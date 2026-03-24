@@ -26,6 +26,7 @@
 #inputt {
   height: 2rem;
   width: 10rem;
+  margin-right: 5px;
   outline: none;
   border-radius: 4px;
   text-align: center;
@@ -39,10 +40,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4rem;
+  height: 3rem;
   color: #ebf5ee;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: #353535;
   opacity: 0.9;
 }
@@ -56,5 +57,21 @@
   color: #8598ad;
   background-color: #22333b;
   font-family: cursive;
+
+}
+
+@media(max-width:600px) {
+  #new {
+    flex-direction: column;
+    height: 40vh;
+  }
+
+  #inputt {
+    margin-bottom: 5px;
+  }
+
+  #heading {
+    font-size: 1rem;
+  }
 
 }
