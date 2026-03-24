@@ -16,6 +16,9 @@ A task management application where users can add, delete, and mark tasks as com
 * HTML
 * CSS
 * JavaScript
+## Screenshot
+<img width="1899" height="1017" alt="image" src="https://github.com/user-attachments/assets/36fcdbf1-25b5-43e3-93b5-326e1e9a4588" />
+
 
 ## What I Learned
 
